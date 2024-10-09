@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhatsApp</title>
+  </head>
+  <body>
+    <div class="main" id="main">
+    <div class="img">
+      <div class="img1"><i class="fa-brands fa-whatsapp"></i></div>
+      <div class="text"><p>WhatsApp</p></div>
+    </div>
+
+    <div class="_whatstop">
+        <div class="wt1"><i class="fa-solid fa-bars" onclick="Open()"></i></div>
+        <div class="wt1"><i class="fa-solid fa-comment"></i></div>
+        <div class="wt1"><i class="fa-solid fa-phone"></i></div>
+        <div class="wt1"><i class="fa-solid fa-square-poll-vertical"></i></div>
+        <hr>
+        <div class="wt2"><div class="wt2_1"></div><div></div></div>
+    </div>
+
+    <div class="_whatsbot">
+        <div class="wt1"><i class="fa-regular fa-star"></i></div>
+        <div class="wt1"><i class="fa-solid fa-box-archive"></i></div>
+        <hr>
+        <div class="wt1"><i class="fa-solid fa-gear"></i></div>
+        <div class="wt3"></div>
+    </div>
+    </div>
+
+    <div class="slide" id="slid">
+        <div class="img">
+            <div class="img1"><i class="fa-brands fa-whatsapp"></i></div>
+            <div class="text"><p>WhatsApp</p></div>
+          </div>
+      
+          <div class="whatstop">
+              <div class="wt1"><i class="fa-solid fa-bars" onclick="Close()"></i></div>
+              <div class="_wt1"><div><i class="fa-solid fa-comment"></i></div> <div class="_text">Chats</div></div>
+              <div class="_wt1"><div><i class="fa-solid fa-phone"></i></div><div class="_text">Calls</div></div>
+              <div class="_wt1"><div><i class="fa-solid fa-square-poll-vertical"></i></div><div class="_text">Status</div></div>
+              <hr>
+            <div class="_wt2">  <div class="wt2"><div class="wt2_1"></div><div></div></div><div class="_text">Meta Ai</div></div>
+          </div>
+      
+          <div class="whatsbot">
+              <div class="_wt1"><div><i class="fa-regular fa-star"></i></div><div class="_text">Starred messages</div></div>
+              <div class="_wt1"><div><i class="fa-solid fa-box-archive"></i></div><div class="_text">Archived chats</div></div>
+              <hr>
+              <div class="_wt1"><div><i class="fa-solid fa-gear"></i></div><div class="_text">Settings</div></div>
+             <div class="_wt3"> <div class="wt3"></div><div class="_text">Profile</div></div>
+          </div>
+    </div>
+
+    <div class="mainfun">
+        
+    </div>
+  </body>
+  <script>
+     function Open()
+     {
+          slid.style.display="inline-block";        
+        }
+        function Close()
+        {
+         slid.style.display="none";        
+        
+     }
+  </script>
+</html>
