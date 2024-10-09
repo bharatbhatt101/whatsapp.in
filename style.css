@@ -5,6 +5,10 @@
     border:border-box;
 }
 
+.mobver
+{
+    display:none;
+}
 body
 {
     background-color:black;
@@ -229,11 +233,52 @@ hr
 
 .mainfun
 {
-    background-color:grey;
+    background-color:rgb(43, 42, 42);
     width:25%;
+    border-top-left-radius:1rem ;
+    border-bottom-left-radius:1rem ;
     height:89%;
     position:absolute;
     top:9%;
     left:4%;
 
+}
+
+@media screen and (max-width:768px) {
+     
+    body
+    {
+        background-color:black;
+    }
+    .super
+    {
+        display:none;
+    }
+
+    .mobver
+    {    
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          flex-direction: column;
+          width:100%;
+          height:100%;
+          border:.2rem solid white;
+          background-color:#5e655e;
+        }
+        
+        img
+        {
+            width:4rem;
+            margin-bottom:1.5rem;
+            border-radius:50%;
+        }
+
+        .mess2
+        {
+            font-size:1.5rem;
+            color:white;
+    }
+    
 }
