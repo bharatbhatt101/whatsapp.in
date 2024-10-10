@@ -589,7 +589,6 @@ hr {
         flex-direction: column;
         width: 100%;
         height: 100%;
-        border: .2rem solid white;
         background-color: #5e655e;
     }
 
@@ -599,7 +598,7 @@ hr {
         border-radius: 50%;
     }
 
-    .mess2 {
+    ._mess2 {
         font-size: 1.4rem;
         margin: 2rem;
         color: white;
