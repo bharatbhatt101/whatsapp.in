@@ -915,6 +915,7 @@ hr {
      width:99%;
      height:4rem;
      display: flex;
+     margin-top:2rem;
      justify-content: space-between;
      align-items: center;
       position: fixed;
