@@ -668,7 +668,7 @@ hr {
         display: flex;
         justify-content: center;
         align-items:center;
-        text-align: center;
+        
 
     }
 
@@ -867,7 +867,50 @@ hr {
         align-items: center;
         justify-content: flex-end;
     }   
+    .add
+    {
+         width:3.5rem;
+         height:7rem;
+         position:fixed;
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         align-items: center;
+         text-align: right;
+         float: right;
+         top:63%;
+         padding:.5rem;
+         left:84%;
+    }
 
+    .add1
+    {
+         width:3rem;
+         border-radius:1rem;
+         height:3rem;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         margin-bottom:.5rem;
+         background-color: rgb(246, 234, 234);
+         border:.1rem solid rgb(246, 234, 234);
+        }
+
+    .add2
+    {
+        width:3.5rem;
+        border-radius:1rem;
+         height:3.5rem;
+         color:white;
+         font-size:1.5rem;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+         background-color:green;
+         border:.1rem solid green;
+    }
   .wend
   {
      width:99%;
