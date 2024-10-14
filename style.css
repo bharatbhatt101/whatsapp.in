@@ -627,7 +627,6 @@ hr {
 
     .mobver {
         display: flex;
-        border:.1rem solid black;
         width: 99%;
         overflow-y: hidden;
         overflow-x: hidden;
@@ -878,7 +877,7 @@ hr {
          align-items: center;
          text-align: right;
          float: right;
-         top:63%;
+         top:55%;
          padding:.5rem;
          left:84%;
     }
