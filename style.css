@@ -12,6 +12,8 @@ body {
     background-color: black;
 }
 
+
+
 .img {
     display: flex;
     /* border:.1rem solid white; */
@@ -229,7 +231,7 @@ hr {
     display: flex;
     flex-direction: column;
 
-    position: absolute;
+    position:fixed;
     top: 9%;
     left: 4%;
 
@@ -240,13 +242,12 @@ hr {
     height: 3.2rem;
     /* border-bottom: .1rem solid rgb(56, 55, 55); */
     border-right: none;
-
     border-top-left-radius: .5rem;
-
+    
 }
 
 .text_1 {
-
+    
     color: white;
     margin-top: .5rem;
     margin-left: 1rem;
@@ -262,8 +263,8 @@ hr {
     display: flex;
     align-items:stretch;
     justify-content: center;
-
-
+    
+    
 }
 
 .sea1 {
@@ -319,11 +320,12 @@ hr {
 
 .mess1 {
     margin-top: 3.2rem;
+    margin-bottom:0rem;
     overflow-y: scroll;
     scrollbar-width: none;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    border-bottom-left-radius: .5rem;
+    border-bottom-left-radius: 0rem;
     width: 99%;
 }
 
@@ -331,12 +333,11 @@ hr {
     width: 100%;
     margin-top: .5rem;
     margin-bottom: .5rem;
-    color: white;
+    color:white;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items:left;
+    justify-content:flex-start;
     flex-direction: column;
-    border-radius: .5rem;
     height: 4rem;
     border-left: none;
     border-right: none;
@@ -344,53 +345,60 @@ hr {
 
 .boxw:hover {
 
-    background-color: rgb(65, 64, 64);
-
+    background-color: rgb(210, 205, 205);
+    border-radius: .5rem;
+    
 }
 
 .boxw_ {
 
     display: flex;
-    justify-content: left;
+    width:99%;
+    justify-content:space-between;
     align-items: flex-start;
-    text-align: center;
+    text-align:left;
 }
 
 .pro {
     border: .1rem solid transparent;
     border-radius: 50%;
-    margin: .2rem;
+    /* margin: .2rem; */
+    width:3rem;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 2.5rem;
-    min-width:2.5rem;
-    height: 2.5rem;
+    
+    min-width:3rem;
+    height:3rem;
 }
 
 .pro img
 {
-     width:2.5rem;
-     height:2.5rem;
-     border-radius:50%;
+    width:100%;
+    height:100%;
+    border-radius:50%;
+     border:.1rem solid black;
 
 }
 .name {
-    margin: .2rem;
-    font-size: 1rem;
+    width:100%;
+    font-size: .9rem;
+    margin-left:.5rem;
+    margin-top:.2rem;
 }
 
 .drop {
-    margin-left: 3.2rem;
-    font-size: .8rem;
+    font-size: .9rem;
+    margin-left:3.8rem;
     margin-top: -1.5rem;
 
 }
 
 .time {
     margin-top: .2rem;
-    float: right;
     display: flex;
+    width:100%;
     align-items: center;
+    margin-right:.3rem;
     justify-content: flex-end;
 }
 
@@ -400,7 +408,7 @@ hr {
     border-top-right-radius: .5rem;
     border-bottom-right-radius: .5rem;
     height: 89%;
-    position: absolute;
+    position:fixed;
     top: 9%;
     left: 29.3%;
 
@@ -431,13 +439,13 @@ hr {
 }
 
 .boxw:hover {
-
+    
     background-color: rgb(65, 64, 64);
-
+    
 }
 
 .boxw1_ {
-
+    
     display: flex;
     justify-content: left;
     align-items: flex-start;
@@ -851,7 +859,8 @@ hr {
     }
     .name {
         width:100%;
-        font-size: 1.1rem;
+        font-size: .9rem;
+
     }
     
     .drop {
@@ -1211,7 +1220,7 @@ hr {
     }
     .name {
         width:100%;
-        font-size: 1.1rem;
+        font-size: .9rem;
     }
     
     .drop {
