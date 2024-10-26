@@ -815,10 +815,15 @@ hr {
         display: flex;
         align-items:left;
         justify-content:flex-start;
-        flex-direction: column;
+        flex-direction:column;
         height: 4rem;
         border-left: none;
         border-right: none;
+    }
+
+    .lm
+    {
+        display: flex;
     }
     
     .boxw:hover {
@@ -834,6 +839,7 @@ hr {
         width:99%;
         justify-content:space-between;
         align-items: flex-start;
+        flex-direction: column;
         text-align:left;
     }
     
