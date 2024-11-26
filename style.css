@@ -659,17 +659,17 @@ hr {
         height: 3.2rem;
         /* border-bottom: .1rem solid rgb(56, 55, 55); */
         border-right: none;
-    
+        
         /* border-top-left-radius: .5rem; */
     
     }
-
+    
     .mybox
     {
         display: flex;
         align-items: center;
     }
-
+    
     .icow
     {
         display: flex;
@@ -678,9 +678,9 @@ hr {
         
 
     }
-
+    
    .icow i
-    {
+   {
         margin-top: .5rem;
         margin-left: 1rem;
         font-size: 1.2rem;
@@ -708,10 +708,10 @@ hr {
          align-items:stretch;
          
     
-    }
-    
-    ._sea1 {
-        width: 5%;
+        }
+        
+        ._sea1 {
+            width: 5%;
         flex:1;
         height:2.5rem;
         /* border:.1rem solid white; */
@@ -727,18 +727,18 @@ hr {
         background-color:rgb(246, 234, 234);
         color:black;
     }
-     
+    
     ._sea1_ 
     {
        width:1.5rem;
        height:1.5rem;
        border-radius:50%;
        display: flex;
-        justify-content: center;
+       justify-content: center;
         align-items: center;
         text-align: center;
-         background-repeat:no-repeat;
-         background-size: cover;
+        background-repeat:no-repeat;
+        background-size: cover;
         background:linear-gradient(to right,blue,cyan,pink,purple);
        animation:wave 10s infinite linear;
     }
@@ -767,7 +767,7 @@ hr {
     }
     .inp
     {
-
+        
         /* border:.1rem solid white; */
         width:100%;
     }
@@ -785,7 +785,7 @@ hr {
         
         color:black;
         background-color:rgb(246, 234, 234);
-    
+        
     }
     
     #_ins:focus
@@ -797,7 +797,7 @@ hr {
     
     
     .mess1 {
-        margin-top: 3.2rem;
+        margin-top:.5rem;
         margin-bottom: 4.1rem;
         overflow-y: scroll;
         scrollbar-width: none;
@@ -1158,7 +1158,7 @@ hr {
     
     
     .mess1 {
-        margin-top: 3.2rem;
+        margin-top: .5rem;
         margin-bottom: 4.1rem;
         overflow-y: scroll;
         scrollbar-width: none;
