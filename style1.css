@@ -804,6 +804,7 @@ hr {
         width:100%;
         background-color:rgba(128, 128, 128, 0.049);   
         margin:.2rem;
+        padding:1rem;
         border:.1rem solid ;
         height: 7rem;
         border-radius: .5rem;
@@ -1278,7 +1279,7 @@ hr {
         align-items: left;
         justify-content: flex-start;
         flex-direction: column;
-        height: 4rem;
+        height: 7rem;
         border: none;
     }
 
