@@ -678,7 +678,7 @@ hr {
 
     .icow i {
         margin-top: .5rem;
-        margin-left:2rem;
+        margin-left: 1rem;
         font-size: 1.2rem;
         float: right;
         text-align: right;
@@ -804,18 +804,11 @@ hr {
         width:100%;
         background-color:rgba(128, 128, 128, 0.049);   
         margin:.2rem;
+        padding:1rem;
         border:.1rem solid ;
-        height: 4rem;
         border-radius: .5rem;
     }
     
-    .lm {
-        display: flex;
-        overflow-x: scroll;
-        overflow-y: scroll;
-        scrollbar-width: none;
-        scroll-behavior:smooth;
-    }
     
     .boxw:hover {
         
@@ -828,29 +821,24 @@ hr {
         
         border-radius:.5rem;
         width:99%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         padding-top:.2rem;
         padding-bottom:.2rem;
         display:flex;
         color: #191919;
+        justify-content:left;
+        align-items:center;
         height:100%;
+        
     }
 
     .pro {
-        border-radius:1rem;
-        min-width:3rem;
-        width:3rem;
-        height:3rem;
+        border-radius:50%;
+        min-width:2.5rem;
+        width:2.5rem;
+        height:2.5rem;
     }
 
-    .pro img {
-        width:100%;
-        height:100%;
-        border-radius:1rem;
-        border:.1rem solid #cacac9;
-    }
+    
 
     .pro #ih {
         border-radius:50%;
@@ -870,24 +858,22 @@ hr {
     }
 
     .name {
-        font-size:1.5rem;
-        margin-top:1rem;
-        margin-left:1.5rem;        
-        font-family:sans-serif;
-
+        font-size:1rem;
+        font-family: sans-serif;
     }
     
     #ad {
         background-color: rgb(86, 174, 86);
         border: .1rem solid rgb(86, 174, 86);
-        width: 1rem;
-        font-size: .7rem;
+        width: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:1rem;
         color: white;
-        border:.2rem solid white;
-        height: 1rem;
+        height: 2rem;
         position:relative;
-        left: 2.5rem;
-        top: -1.6rem;
+        
     }
 
     .add {
@@ -901,20 +887,35 @@ hr {
         float: right;
         top: 1%;
         padding: .2rem;
-        left: 71%;
+        left: 74%;
     }
-
-    .add1 {
-        width: 1.5rem;
-        border-radius: 1rem;
-        height: 1.5rem;
+    .channel
+    {
+        position: absolute;
+        top:50%;
+        left:50%;
+        width:90%;
         display: flex;
-        align-items: center;
         justify-content: center;
-        text-align: center;
-        background-color: rgb(246, 234, 234);
-        border: .1rem solid rgb(246, 234, 234);
+        align-items: center;
+        margin:0 .5rem;
+        letter-spacing:.1rem;
+        transform:translate(-50%,-50%);
     }
+    .channel i
+    {
+        font-size:1rem;
+        color: #191919bb;
+    }
+    
+        .channel h3
+        {
+        border:.1rem solid ;
+        font-family: sans-serif;
+        font-size:.9rem;
+        font-weight:normal;
+     }
+    
 
     .mdiv {
         display: flex;
@@ -926,7 +927,7 @@ hr {
 
     .add2 {
         width: 2rem;
-        border-radius: 1rem;
+        border-radius: .5rem;
         height: 2rem;
         color: white;
         font-size: 1rem;
@@ -939,85 +940,7 @@ hr {
     }
 
 
-    .ch1,
-    .ch2,
-    .ch3,
-    .ch4,
-    .ch5,
-    .ch6,
-    .ch7,
-    .ch8 {
-        display: flex;
-        margin: .6rem;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .ch2c
-    {
-        display: flex;
-    }
-
-    .impw img
-    {
-        width:1.5rem;
-        margin-top:-1rem;
-    }
-
-
-
-    .uip {
-        display: flex;
-        align-items: center;
-    }
-
-    .chn h3 {
-        font-family: sans-serif;
-        font-weight: normal;
-    }
-
-    .che p {
-        color: green;
-        margin-right: .2rem;
-    }
-
-    .ch2c p,
-    .ch3c p {
-        margin-right: .2rem;
-    }
-
-    .ch2c img,
-    .ch3c img,
-    .ch5c img,
-    .ch6c img,
-    .ch7c img {
-        width: 3rem;
-        height: 3rem;
-        margin-right: 1rem;
-        border-radius: 50%;
-
-    }
-
-    .ch5c button,
-    .ch6c button,
-    .ch7c button {
-        color: green;
-        background-color: rgb(120, 237, 120);
-        margin-right: .2rem;
-        padding: .2rem;
-        width: 4rem;
-        border: .1rem solid rgb(120, 237, 120);
-        border-radius: .8rem;
-    }
-
-    .ch8 button {
-        color: green;
-        background-color: #fff;
-        margin-left: .2rem;
-        padding: .5rem;
-        border: .1rem solid #808080;
-        border-radius: 1.2rem;
-    }
+    
 
 
 
@@ -1136,14 +1059,13 @@ hr {
         display: flex;
         justify-content: center;
         align-items: center;
-    
 
 
     }
 
     .icow i {
         margin-top: .5rem;
-        margin-left:2.5rem;
+        margin-left: 1rem;
         font-size: 1.2rem;
         float: right;
         text-align: right;
@@ -1275,10 +1197,10 @@ hr {
         margin-bottom: .5rem;
         color: black;
         display: flex;
-        align-items:center;
-        justify-content:center;
+        align-items: left;
+        justify-content: flex-start;
         flex-direction: column;
-        height: 5rem;
+        height: 7rem;
         border: none;
     }
 
@@ -1293,8 +1215,8 @@ hr {
 
         display: flex;
         width: 99%;
-        justify-content:center;
-        align-items:center;
+        justify-content: space-between;
+        align-items: flex-start;
         text-align: left;
     }
 
@@ -1313,7 +1235,7 @@ hr {
     .pro img {
         width: 100%;
         height: 100%;
-        border-radius:.5rem;
+        border-radius: 50%;
         border: .1rem solid black;
 
     }
@@ -1337,19 +1259,6 @@ hr {
         align-items: center;
         margin-right: .3rem;
         justify-content: flex-end;
-    }
-
-    #ad {
-        background-color: rgb(86, 174, 86);
-        border: .1rem solid rgb(86, 174, 86);
-        width: 1rem;
-        font-size: .7rem;
-        color: white;
-        border:.2rem solid white;
-        height: 1rem;
-        position:relative;
-        left: 2rem;
-        top: -1.2rem;
     }
 
     .add {
