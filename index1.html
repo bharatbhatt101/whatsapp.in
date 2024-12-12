@@ -33,9 +33,9 @@
           <div class="wt1">
             <i class="fa-solid fa-bars" onclick="Open()"></i>
           </div>
-          <div class="wt1"><i class="fa-solid fa-comment"></i></div>
-          <div class="wt1"><i class="fa-solid fa-phone"></i></div>
-          <div class="wt1">
+          <div class="wt1"  id="cht1" title="chats"><i class="fa-solid fa-comment"></i></div>
+          <div class="wt1" onclick="Up4()" title="calls"><i class="fa-solid fa-phone"></i></div>
+          <div class="wt1" onclick="Up()" title="status">
             <i class="fa-solid fa-square-poll-vertical"></i>
           </div>
           <hr />
@@ -67,14 +67,14 @@
             <i class="fa-solid fa-bars" onclick="Close()"></i>
           </div>
           <div class="_wt1">
-            <div><i class="fa-solid fa-comment"></i></div>
+            <div id="cht"><i class="fa-solid fa-comment"></i></div>
             <div class="_text">Chats</div>
           </div>
-          <div class="_wt1">
+          <div class="_wt1" onclick="Up4()">
             <div><i class="fa-solid fa-phone"></i></div>
             <div class="_text">Calls</div>
           </div>
-          <div class="_wt1">
+          <div class="_wt1" onclick="Up()">
             <div><i class="fa-solid fa-square-poll-vertical"></i></div>
             <div class="_text">Status</div>
           </div>

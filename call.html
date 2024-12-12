@@ -27,9 +27,9 @@
                 <div class="wt1">
                     <i class="fa-solid fa-bars" onclick="Open()"></i>
                 </div>
-                <div class="wt1"><i class="fa-solid fa-comment"></i></div>
-                <div class="wt1"><i class="fa-solid fa-phone"></i></div>
-                <div class="wt1">
+                <div class="wt1" onclick="Click()"><i class="fa-solid fa-comment"></i></div>
+                <div class="wt1" id="cht"><i class="fa-solid fa-phone"></i></div>
+                <div class="wt1" onclick="Click4()">
                     <i class="fa-solid fa-square-poll-vertical"></i>
                 </div>
                 <hr />
@@ -60,15 +60,15 @@
                 <div class="wt1">
                     <i class="fa-solid fa-bars" onclick="Close()"></i>
                 </div>
-                <div class="_wt1">
+                <div class="_wt1" onclick="Click()">
                     <div><i class="fa-solid fa-comment"></i></div>
                     <div class="_text">Chats</div>
                 </div>
-                <div class="_wt1">
+                <div class="_wt1" id="cht1">
                     <div><i class="fa-solid fa-phone"></i></div>
                     <div class="_text">Calls</div>
                 </div>
-                <div class="_wt1">
+                <div class="_wt1" onclick="Click4()">
                     <div><i class="fa-solid fa-square-poll-vertical"></i></div>
                     <div class="_text">Status</div>
                 </div>
@@ -105,9 +105,22 @@
 
         <div class="mainfun">
             <div class="chat">
-                <div class="text_1">Status</div>
-
+                <div class="text_1">Calls</div>
+                <div class="search">
+                    <div class="sea1">
+                      <i class="fa-solid fa-search"></i>
+                    </div>
+                    <div class="inp">
+                      <input
+                        type="text"
+                        id="ins"
+                        placeholder="Search or Start a new chat"
+                      />
+                    </div>
+                  </div>
             </div>
+            
+            
             <div class="mess1">
                 <div class="boxw">
                     <div class="boxw_">

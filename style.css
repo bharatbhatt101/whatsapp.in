@@ -12,7 +12,11 @@ body {
     background-color: black;
 }
 
-
+#cht,#cht1
+{
+    border-left:.1rem solid green;
+    padding:.2rem;
+}
 
 .img {
     display: flex;
