@@ -895,16 +895,14 @@ hr {
     }
     .channel
     {
-        position: absolute;
+        position: relative;
         top:50%;
         left:50%;
+        transform:translate(-50%,-50%);
         width:90%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         margin:0 .5rem;
         letter-spacing:.1rem;
-        transform:translate(-50%,-50%);
+        
     }
     .channel i
     {
@@ -1201,10 +1199,10 @@ hr {
         margin-bottom: .5rem;
         color: black;
         display: flex;
-        align-items: left;
-        justify-content: flex-start;
+        align-items:center;
+        justify-content:center;
         flex-direction: column;
-        height: 7rem;
+        height: 2rem;
         border: none;
     }
 
@@ -1219,8 +1217,8 @@ hr {
 
         display: flex;
         width: 99%;
-        justify-content: space-between;
-        align-items: flex-start;
+        justify-content:center;
+        align-items:center;
         text-align: left;
     }
 
